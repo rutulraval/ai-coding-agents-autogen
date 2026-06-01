@@ -1,0 +1,21 @@
+# ============================================================
+# requirements.txt — Python Dependencies
+# ============================================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Note: Also requires Node.js for MCP servers:
+#   npx @playwright/mcp@latest
+#   npx @modelcontextprotocol/server-filesystem
+# ============================================================
+
+# AutoGen — Core agent framework
+autogen-agentchat>=0.4.0
+autogen-ext[openai]>=0.4.0
+autogen-core>=0.4.0
+
+# Web search tool
+tavily-python>=0.5.0
+
+# Environment variable management
+python-dotenv>=1.0.0
